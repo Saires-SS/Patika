@@ -1,0 +1,12 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+root 5 olsun.
+Sağında 7 solunda 4 olsun.
+Sırayla ekleyerek gidelim.
+1 sayısı rootan küçük sola gider ve 4'ten de küçük olduğu için sol tarafa dallanır.
+8 sayısı roottan büyük sağa gider ve 7'den de büyük olduğu için sağ tarafa dallanır.
+3 sayısı 4ten küçük ve 1den büyük olduğu için 1den sağa doğru dallanır.
+6 sayısı 5ten büyük olduğu için sağa gider fakat 7den küçük olduğu için sola doğru dallanır.
+0 sayısı 1den sola doğru dallanır.
+9 sayısı 8den sağa doğru dallanır.
+2 sayısı 4ten küçük 1 den büyük ve 3ten küçük olduğu için 3ün solundan dallanır.
