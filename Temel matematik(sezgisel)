@@ -1,0 +1,7 @@
+Sezgisel Türev
+Bir bilgisayardaki CPU sıcaklığı yapılan işin farklılığına ve süresine göre genel olarak değişir. 
+Bu değişimi hesaplayabilmek için bilgisayarı açtığınız andan itibaren her anı kaydederek devam etmeniz gerekir.
+Mesela 30 derecede 4 saniye 32 derece 12 saniye kaldı diyelim. Ortalama sıcaklığı hesaplamak için ((30*4) + (32*12)) / (12+4) gibi bir işlem yapmanız gerekir. 
+Bu işlemlerin sürekli uzun uzadıya gitmesi kaçınılmazdır. Çünkü bir bilgisayarın sadece açılıp kapanma süresi 16 saniyeden fazla sürebilir. 
+Bu kadar şey ile uğraşmak yerine son sıcaklık ile ilk açıldığındaki sıcaklığın farkını alıp geçen süreye bölerseniz doğru cevaba yakın bir cevap bulursunuz. 
+Bu bulduğunuz cevap sıcaklığın anlık değişimini verir ve buna türev denir.
